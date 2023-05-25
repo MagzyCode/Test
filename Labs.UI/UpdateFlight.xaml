@@ -1,0 +1,28 @@
+﻿<Window x:Class="Labs.UI.UpdateFlight"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Labs.UI"
+        mc:Ignorable="d"
+        Title="Update flight window" Height="450" Width="400">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center">
+            <TextBlock Margin="0 10 0 0">Flight route number</TextBlock>
+            <ComboBox Name="RoutesNumbersList" Width="300" Margin="0 5 0 0"/>
+
+            <TextBlock Margin="0 40 0 0">Departure date</TextBlock>
+            <DatePicker Name="DepartureDatePicker" IsDropDownOpen="True" SelectedDateFormat="Short" />
+
+            <TextBlock Margin="0 40 0 0">Arrival date</TextBlock>
+            <DatePicker Name="ArrivalDatePicker" IsDropDownOpen="True" SelectedDateFormat="Short" />
+
+            <TextBlock Margin="0 40 0 0">Aircraft type</TextBlock>
+            <ComboBox Name="AircraftTypeList" Width="300" Margin="0 5 0 0"/>
+
+            <Button Margin="0 60 0 0" Click="UpdateFlightClick">
+                Update flight
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>

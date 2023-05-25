@@ -1,0 +1,20 @@
+﻿Labs.UI
+1.0.0.0
+
+winexe
+C#
+.cs
+D:\Programs\My Projects\Любаше\ООП-6-8\Labs.DataAccess\Labs.UI\obj\Debug\net6.0-windows\
+Labs.UI
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+D:\Programs\My Projects\Любаше\ООП-6-8\Labs.DataAccess\Labs.UI\App.xaml
+9-776364917
+
+131024672806
+2251657652058
+CreareAircraftType.xaml;CreateDestination.xaml;CreateFlight.xaml;CreateRoute.xaml;MainWindow.xaml;UpdateAircraftType.xaml;UpdateDestination.xaml;UpdateFlight.xaml;UpdateRoute.xaml;
+
+True
+
